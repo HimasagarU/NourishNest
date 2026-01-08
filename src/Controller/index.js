@@ -34,16 +34,13 @@ app.use(
     })
 );
 
-const db_url = process.env.MONGODB_URL;
-const connectDB = async (url) => {
-    try {
-        await mongoose.connect(url);
-        console.log("DB connected");
-    } catch (error) {
-        console.log(error);
-    }
-};
-connectDB(db_url);
+const db_url = process.env.MONGODB_URI;
+if (!mongoose.connection.readyState) {
+    mongoose.connect(db_url)
+        .then(() => console.log("MongoDB connected"))
+        .catch(err => console.error("MongoDB error:", err));
+}
+
 
 app.get("/", (req, res) => {
     res.redirect("/index?role=guest");
@@ -260,6 +257,5 @@ app.get("/logout", (req, res) => {
     console.log("You have logged out !!!");
 });
 
-app.listen(3000, () => {
-    console.log("Server is running on port http://localhost:3000/");
-});
+export default app;
+
