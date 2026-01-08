@@ -1,10 +1,10 @@
-# NutriPath Pro
+# NourishNest
 
 A comprehensive nutrition and diet planning platform designed to help users achieve their health goals through intelligent meal planning, real-time nutrition tracking, and personalized dietary recommendations.
 
 ## 🎯 Overview
 
-NutriPath Pro is a full-stack responsive web application that combines modern UI/UX with powerful backend functionality. It provides users with comprehensive nutrition data, recipe suggestions, meal planning tools, and progress tracking features—all wrapped in an intuitive interface designed for accessibility and ease of use.
+NourishNest is a full-stack responsive web application that combines modern UI/UX with powerful backend functionality. It provides users with comprehensive nutrition data, recipe suggestions, meal planning tools, and progress tracking features—all wrapped in an intuitive interface designed for accessibility and ease of use.
 
 ## ✨ Key Features
 
@@ -136,7 +136,7 @@ The application uses the **Meals API** for dynamic recipe data:
 - Endpoint: `https://www.themealdb.com/api/json/v1/1/search.php?s={meal}`
 - Provides detailed recipe information including ingredients and instructions
 
-## 📈 Usage Examples
+## 🐈 Usage Examples
 
 ### For Users
 1. Register and create a profile
