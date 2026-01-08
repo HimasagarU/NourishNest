@@ -34,7 +34,7 @@ app.use(
     })
 );
 
-const db_url = process.env.MONGODB_URL || "mongodb+srv://Koushik:1234@koushik.xbrofez.mongodb.net/NourishNest";
+const db_url = process.env.MONGODB_URL;
 const connectDB = async (url) => {
     try {
         await mongoose.connect(url);

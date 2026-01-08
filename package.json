@@ -8,7 +8,7 @@
         "start": "node ./src/Controller/index.js",
         "dev": "nodemon ./src/Controller/index.js"
     },
-    "author": "Koushik",
+    "author": "HimasagarU",
     "license": "ISC",
     "dependencies": {
         "axios": "^1.6.8",
