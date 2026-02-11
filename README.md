@@ -53,7 +53,7 @@ NourishNest/
 
 ### Prerequisites
 - Node.js (v14 or higher)
-- npm or yarn
+- npm
 - MongoDB account and connection string
 
 ### Installation
@@ -160,24 +160,3 @@ The application uses the **Meals API** for dynamic recipe data:
 - **Performance** - Optimized loading times and smooth interactions
 - **User-Centric** - Designed based on user feedback and testing
 
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## 👨‍💻 Author
-
-**Himasagar U**
-- GitHub: [@HimasagarU](https://github.com/HimasagarU)
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📞 Support
-
-If you encounter any issues or have questions, please open an issue on the GitHub repository.
-
----
-
-**Last Updated:** January 2026
-**Status:** Active Development
